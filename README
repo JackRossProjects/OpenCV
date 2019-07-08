@@ -5,3 +5,5 @@ FOR FACIAL RECOGNITON USING HAAR CASCADES
 2.) Train the model with faces-train.py
 
 3.) Run webcam and track with faces.py
+
+![Facial Recognition Test](https://imgur.com/a/8TSWQHs)
