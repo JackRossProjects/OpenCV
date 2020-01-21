@@ -2,11 +2,11 @@ import numpy as np
 import cv2
 import pickle
 
-face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
-eye_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_eye.xml')
-#smile_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_smile.xml')
-fullbody_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_fullbody.xml')
-profile_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_profileface.xml')
+face_cascade = cv2.CascadeClassifier('CV2/cascades/data/haarcascade_frontalface_alt2.xml')
+eye_cascade = cv2.CascadeClassifier('CV2/cascades/data/haarcascade_eye.xml')
+#smile_cascade = cv2.CascadeClassifier('CV2/cascades/data/haarcascade_smile.xml')
+fullbody_cascade = cv2.CascadeClassifier('CV2/cascades/data/haarcascade_fullbody.xml')
+profile_cascade = cv2.CascadeClassifier('CV2/cascades/data/haarcascade_profileface.xml')
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("trainner.yml")
