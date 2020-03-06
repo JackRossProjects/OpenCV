@@ -1,3 +1,5 @@
+![test](https://github.com/JackRossProjects/OpenCV/blob/master/me.png)
+
 FOR FACIAL RECOGNITON USING HAAR CASCADES
 
 1.) Use a folder named "Images" to store your training data (i.e. picture sets of yourself or others IN JPG FORM ONLY)
@@ -5,5 +7,3 @@ FOR FACIAL RECOGNITON USING HAAR CASCADES
 2.) Train the model with faces-train.py
 
 3.) Run webcam and track with faces.py
-
-![test](https://github.com/JackRossProjects/OpenCV/blob/master/me.png)
